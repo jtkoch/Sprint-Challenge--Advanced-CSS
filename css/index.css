@@ -263,7 +263,21 @@ footer {
   border-radius: 10px;
 }
 @media "(max-width: 500px)" {
+  .home .space-images .blast {
+    width: 100%;
+    padding: 20px;
+  }
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
+  }
   .home .walk {
-    background-color: red;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+    padding: 20px;
   }
 }

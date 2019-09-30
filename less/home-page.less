@@ -87,8 +87,27 @@
 
   @media @phone {
 
+    .space-images {
+
+      .blast {
+        width: 100%;
+        padding: 20px; 
+      }
+
+      .sky, .launch {
+        display: none;
+      }
+    }
+
     .walk {
-      background-color: red;
+      display: flex;
+      flex-flow: column wrap;
+      width: 100%;
+
+        .walk-img {
+          width: 100%;
+          padding: 20px;
+        }
     }
 
   }
