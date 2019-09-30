@@ -263,13 +263,7 @@ footer {
   border-radius: 10px;
 }
 @media "(max-width: 500px)" {
-  .home .space-images .blast {
-    width: 100%;
-  }
-  .home .space-images .sky {
-    display: none;
-  }
-  .home .space-images .launch {
-    display: none;
+  .home .walk {
+    background-color: red;
   }
 }
