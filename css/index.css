@@ -172,7 +172,7 @@ p {
 .nav-section .logo {
   position: absolute;
   font-size: 4.2rem;
-  margin-top: -3%;
+  margin-top: -4%;
 }
 .nav-section a {
   padding: 1.3vw;
@@ -240,13 +240,18 @@ footer {
   background-color: #22283A;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #F6F6F6;
   padding: 10px;
   width: 30%;
   text-align: center;
   text-decoration: none;
   font-size: 1.7rem;
   font-family: 'Ubuntu', sans-serif;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F6F6;
+  color: #22283A;
+  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -256,4 +261,15 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media "(max-width: 500px)" {
+  .home .space-images .blast {
+    width: 100%;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
 }
