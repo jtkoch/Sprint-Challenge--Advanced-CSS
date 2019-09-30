@@ -181,6 +181,11 @@ p {
   text-decoration: none;
   color: #454A59;
 }
+@media (max-width: 500px) {
+  .nav-section .logo {
+    margin-top: -6%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -262,10 +267,11 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-@media "(max-width: 500px)" {
+@media (max-width: 500px) {
   .home .space-images .blast {
     width: 100%;
     padding: 20px;
+    border-radius: 40px;
   }
   .home .space-images .sky,
   .home .space-images .launch {
@@ -273,10 +279,17 @@ footer {
   }
   .home .walk {
     display: flex;
-    flex-flow: column wrap;
-    width: 100%;
+    flex-flow: column-reverse wrap;
   }
   .home .walk .walk-img {
+    width: 100%;
+    padding: 10px;
+    margin-left: -4%;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+  }
+  .home .walk .walk-text .btn {
     width: 100%;
     padding: 20px;
   }
