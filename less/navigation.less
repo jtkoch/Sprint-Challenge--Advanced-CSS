@@ -3,14 +3,17 @@
   
   .displayFlex(space-evenly, center);
     width: 100%;
-    padding: 60px;
+    padding: 20px;
     background-color: @nav-bg;
     border: 1px solid @sea-shell;
+    flex-flow: row wrap;
 
   .logo {
-    position: absolute;
-    font-size: 4.2rem;
-    margin-top: -4%;
+    .displayFlex(space-evenly, center);
+      flex-flow: row wrap;
+      width: 100%;
+      font-size: 4rem;
+      padding: 10px;
   }
 
   a {
@@ -22,8 +25,6 @@
   }
 
   @media @phone {
-    .logo {
-      margin-top: -6%;
-    }
+    
   }
 }  
