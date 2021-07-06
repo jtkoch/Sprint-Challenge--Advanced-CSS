@@ -1,1 +1,30 @@
 // Navigation code here
+.nav-section {
+  
+  .displayFlex(space-evenly, center);
+    width: 100%;
+    padding: 20px;
+    background-color: @nav-bg;
+    border: 1px solid @sea-shell;
+    flex-flow: row wrap;
+
+  .logo {
+    .displayFlex(space-evenly, center);
+      flex-flow: row wrap;
+      width: 100%;
+      font-size: 4rem;
+      padding: 10px;
+  }
+
+  a {
+    padding: 1.3vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: @nav-font;
+  }
+
+  @media @phone {
+    
+  }
+}  
